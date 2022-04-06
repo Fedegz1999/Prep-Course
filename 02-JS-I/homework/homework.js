@@ -55,14 +55,17 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x % y;
+  return x / y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (x === y)
   return true;
+  else
+  return false;
   
 }
 
@@ -70,7 +73,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 == str2) 
+  if (str1 === str2) 
   return true; 
   else 
   return false;
@@ -82,7 +85,7 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90) 
   return true;
- else 
+  else 
   return false; 
 }
 
@@ -115,9 +118,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 1)
-  return true
+  return true;
   else
-  return false
+  return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -175,7 +178,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + "!"
+  return str + '!'
 } 
 
 function combinarNombres(nombre, apellido) {

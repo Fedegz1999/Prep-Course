@@ -91,7 +91,7 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-return numero <50 && numero >20
+return numero <50 && numero >20;
 }
 
 function esEntero(numero) {
@@ -161,9 +161,9 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 if (valor === true) {
-return "soy verdadero"
+return "soy verdadero";
 }
-return "soy falso"
+return "soy falso";
 }
 
 function tablaDelSeis(){
@@ -181,11 +181,11 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   if (numero > 99 && numero < 1000) {
-  return true 
+  return true;
 
   }
   
-  return false
+  return false;
 }
 
 function doWhile(numero) {
